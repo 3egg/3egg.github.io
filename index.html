@@ -26,7 +26,7 @@
         html,
         body {
             position: relative;
-            height: 40%;
+            height: 300px;
         }
 
         body {
@@ -75,7 +75,7 @@
             </a>
         </div>
         <div style="height: 57px;line-height:57px;">
-            <font style="color:#909090;">公司主营范围: 展览展示,主题互动,数字内容和软件开发等。</font>
+            <!-- <font style="color:#909090;">公司主营范围: 展览展示,主题互动,数字内容和软件开发等。</font> -->
             <a class="nav" href="https://3egg.github.io/" target="_self" class="l1"><span>
                     <font style="color:#909090;">HOME</font>
                 </span>
@@ -304,6 +304,10 @@
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -312,28 +316,6 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-        });
-
-        $(function () {
-            // 初始化轮播
-            // $(".start-slide").click(function () {
-            //     $("#myCarousel").carousel('cycle');
-            // });
-            $('#myCarousel').carousel({
-                interval: 5000
-            })
-            // 停止轮播
-            // $(".pause-slide").click(function () {
-            //     $("#myCarousel").carousel('pause');
-            // });
-            // 循环轮播到上一个项目
-            $(".prev-slide").click(function () {
-                $("#myCarousel").carousel('prev');
-            });
-            // 循环轮播到下一个项目
-            $(".next-slide").click(function () {
-                $("#myCarousel").carousel('next');
-            });
         });
 
     </script>

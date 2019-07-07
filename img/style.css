@@ -88,7 +88,7 @@ input{ outline:0;}
 .back1{ padding:0 15px;}
 .so_box{ margin:18px 0 0 15px;}
 
-.pc_top{ display:none;}		
+/* .pc_top{ display:none;}		 */
 .ph_top{ display:block;}
 .pc_menu{ display:none;}
 .menuph{ display:block;}
@@ -344,7 +344,7 @@ display:-webkit-box;
 .conter2{ float:left; width:100%; background:#efefef; padding:95px 10% 115px 10%;}
 .conter2_ul{ float:left; width:100%; margin-top:70px;}
 .conter2_ul li{ float:left; width:33.3333%; padding:2px;}
-.conter2_ul li .li_a{ float:left; width:100%; overflow:hidden; position:relative; background:#d73240;}
+.conter2_ul li .li_a{ float:left; width:100%; overflow:hidden; position:relative; background:#779cd3;}
 .conter2_ul .l1{ float:left; width:100%; overflow:hidden;opacity:0.4;filter: alpha(opacity=40); line-height:0;}
 .conter2_ul .l1 img{
 -webkit-transition: all 0.4s ease-out 0s; 
