@@ -10,51 +10,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta name="format-detection" content="telephone=no">
-    <title>核心服务-泓域有限公司【官方网站】</title>
-    <meta name="keywords" content="核心服务美泓域">
-    <meta name="description" content="核心服务">
-    <link rel="icon" href="./icon.png" type="image/x-icon">
-    <link href="./img/bootstrap.css" rel="stylesheet">
-    <link href="./img/slick.css" rel="stylesheet">
-    <link href="./img/slick-theme.css" rel="stylesheet">
+    <title>展览展示-泓域有限公司【官方网站】</title>
+    <meta name="keywords" content="泓域以展览展示、主题互动、数字内容、软件开发为核心业务，以创新创造为核心，以主题体验为驱动，打造更专业的服务模式。">
+    <meta name="description" content="泓域秉持“专业、专注、价值”的服务理念，从主题创意策划、设计体验、落地运维等各领域，为客户的可持续发展提供专业优质服务。">
+    <link rel="icon" href="./img/icon.ico" type="image/x-icon">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <!-- <link href="./img/slick.css" rel="stylesheet">
+    <link href="./img/slick-theme.css" rel="stylesheet"> -->
     <link href="./img/style.css" rel="stylesheet">
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
 
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 300px;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #f1ecec;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        @media (min-width:768px) {
+
+            .swiper-button-next,
+            .swiper-container-rtl .swiper-button-prev {
+                right: 30px;
+            }
+
+            .swiper-button-prev,
+            .swiper-container-rtl .swiper-button-next {
+                left: 30px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .adjust-font {
+                display: none;
+            }
+
+            .swiper-container {
+                height: unset;
+            }
+
+        }
+    </style>
 
 </head>
 
 <body data-gr-c-s-loaded="true">
-    <div class="pz_top">
 
-        <body data-gr-c-s-loaded="true">
-            <div class="back1 pc_top" id="header" style="text-align: center">
-                <div class="logo">
-                    <a href="https://3egg.github.io/">
-                        <img src="./img/logo.jpg" width="100%" alt="">
-                    </a>
-                </div>
-                <div style="height: 57px;line-height:57px;">
-                    <!-- <font style="color:#909090;">公司主营范围: 展览展示,主题互动,数字内容和软件开发等。</font> -->
-                    <a class="nav" href="https://3egg.github.io/" target="_self" class="l1"><span>
-                            <font style="color:#909090;">HOME</font>
-                        </span>
-                        <font style="color:#909090;">首页</font>
-                    </a>
-                </div>
-
+    <div class="back1 pc_top" id="header" style="text-align: center">
+        <div class="logo">
+            <a href="https://3egg.github.io/">
+                <img src="./img/logo.jpg" width="100%" alt="">
+            </a>
+        </div>
+        <div style="height: 57px;line-height:57px;">
+            <font style="color:#909090;" class='adjust-font'>公司主营范围: 展览展示,主题互动,数字内容和软件开发等。</font>
+            <!-- Single button -->
+            <div class="btn-group" style="float:right;margin-top: 10px">
+                <button type="button" class="btn btn-default dropdown-toggle" style="background-color: #eee;"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Home 首页 <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" style="background-color: #eee">
+                    <li><a href="https://3egg.github.io/">Home 首页</a></li>
+                    <li><a href="./coreBiz1.html">核心业务</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
             </div>
-    </div>
+        </div>
 
-    <!-- <div class="pz_banner">
-	<div class="zy_banner">
-      	<img src="./img/banner23548199.jpg" width="100%" class="visible-md visible-lg">
-      	<img src="./img/banner2_ph6610122.jpg" width="100%" class="visible-xs visible-sm">
-   </div>
-</div> -->
-    <script>
-        $('#nav3').addClass('hover');
-    </script>
+    </div>
     <div class="pz_main">
         <div class="conter7">
             <style>
@@ -76,15 +140,15 @@
                                 role="listbox">
                                 <li class="l1 first sl_p3 slick-slide slick-current slick-active" data-slick-index="0"
                                     aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00"><a
-                                        href="http://www.magic-sh.net/page/15.htm" target="_self" tabindex="0">旅游规划</a>
+                                        href="#" target="_self" tabindex="0">旅游规划</a>
                                 </li>
                                 <li class="l1 sl_p3 slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1"
-                                    role="option" aria-describedby="slick-slide01"><a
-                                        href="http://www.magic-sh.net/page/16.htm" target="_self" tabindex="-1">体验商业</a>
+                                    role="option" aria-describedby="slick-slide01"><a href="#" target="_self"
+                                        tabindex="-1">体验商业</a>
                                 </li>
                                 <li class="l1 last sl_p3 slick-slide" data-slick-index="2" aria-hidden="true"
-                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a
-                                        href="http://www.magic-sh.net/page/28.htm" target="_self" tabindex="-1">
+                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a href="#"
+                                        target="_self" tabindex="-1">
                                         展览展示</a></li>
                             </div>
                         </div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next"
@@ -110,13 +174,13 @@
                         SERVICE
                     </div>
                     <div class="home_l4">
-                        MAGIC—“智慧创造，跨界体验”！
+                        “智慧创造，跨界体验”！
                     </div>
                     <div class="home_l2">
-                        <p style="text-align: center;">美集珂作为文化创意产业先锋，立足旅游规划、体验商业、展览展示三大核心业务，</p>
+                        <p style="text-align: center;">泓域作为文化创意产业先锋，立足旅游规划、体验商业、展览展示三大核心业务，</p>
                         <p style="text-align: center;">致力于以智慧创造为核心，以跨界体验为驱动，不断提升优势竞争力，打造更专业的产业服务模式。</p>
                         <p><br></p>
-                        <p style="text-align: center;">美集珂秉持“专业、跨界、价值”的服务宗旨，依托智慧化战略发展导向，</p>
+                        <p style="text-align: center;">泓域秉持“专业、跨界、价值”的服务宗旨，依托智慧化战略发展导向，</p>
                         <p style="text-align: center;">从创意设计、策划规划、产业咨询、品牌建设、跨界智造、落地运营、市场推广以及资源整合等各领域，</p>
                         <p style="text-align: center;">为合作伙伴的可持续发展提专业服务。</p>
                         <p><br></p>
@@ -143,14 +207,14 @@
             <li class="side-main-list side-change">
                 <i class="icon-spirit-2 side-icon-1"></i>
                 <div class="side-txt">
-                    <p>13916116636</p>
+                    <p>123456789</p>
                 </div>
             </li>
 
             <li class="side-main-list side-change">
                 <i class="icon-spirit-2 side-icon-ke"></i>
                 <div class="side-txt">
-                    <p>13916116636</p>
+                    <p>123456789</p>
                 </div>
             </li>
 
@@ -188,21 +252,13 @@
             'height': 'auto'
         });
     </script>
-
-    <!-- <script type="text/javascript" src="./img/jquery.SuperSlide.2.1.1.js"></script>
-    <script type="text/javascript" src="./img/slick.min.js"></script>
-    <script type="text/javascript" src="./img/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./img/respond.src.js"></script>
-    <script type="text/javascript" src="./img/TouchSlide.1.1.js"></script>
-    <script type="text/javascript" src="./img/wow.min.js"></script>
-    <script type="text/javascript" src="./img/only.js"></script>
-    <script type="text/javascript" src="./img/main.js"></script> -->
-    <!--首页js-->
-
-
-
-
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span
-        class="gr__triangle"></span></span>
+    <script type="text/javascript" src="./img/slick.min.js.download"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./img/respond.src.js.download"></script>
+    <script type="text/javascript" src="./img/TouchSlide.1.1.js.download"></script>
+    <script type="text/javascript" src="./img/wow.min.js.download"></script>
+    <script type="text/javascript" src="./img/only.js.download"></script>
+    <script type="text/javascript" src="./img/main.js.download"></script>
+</body>
 
 </html>
