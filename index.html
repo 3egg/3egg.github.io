@@ -64,17 +64,22 @@
             -webkit-align-items: center;
             align-items: center;
         }
-        @media  (min-width:768px){
-            .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+
+        @media (min-width:768px) {
+
+            .swiper-button-next,
+            .swiper-container-rtl .swiper-button-prev {
                 right: 30px;
             }
-            .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+
+            .swiper-button-prev,
+            .swiper-container-rtl .swiper-button-next {
                 left: 30px;
             }
         }
-        
-        @media  (max-width:768px){
-            .adjust-font{
+
+        @media (max-width:768px) {
+            .adjust-font {
                 display: none;
             }
         }
@@ -90,11 +95,18 @@
         </div>
         <div style="height: 57px;line-height:57px;">
             <font style="color:#909090;" class='adjust-font'>公司主营范围: 展览展示,主题互动,数字内容和软件开发等。</font>
-            <a class="nav" href="https://3egg.github.io/" target="_self" class="l1"><span>
-                    <font style="color:#909090;">HOME</font>
-                </span>
-                <font style="color:#909090;">首页</font>
-            </a>
+            <!-- Single button -->
+            <div class="btn-group" style="float:right;margin-top: 10px">
+                <button type="button" class="btn btn-default dropdown-toggle" style="background-color: #eee;" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Home 首页 <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" style="background-color: #eee">
+                    <li><a href="https://3egg.github.io/">Home 首页</a></li>
+                    <li><a href="#">核心业务</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -105,26 +117,26 @@
         <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1092px, 0px, 0px);">
             <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style=" margin-right: 0px;">
                 <a href="https://3egg.github.io/">
-                    <img src="./image/1200_600image.png"/>
+                    <img src="./image/1200_600image.png" />
                 </a>
             </div>
             <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style=" margin-right: 0px;">
                 <a href="https://3egg.github.io/">
-                    <img src="./image/1200_600image.png"/>
+                    <img src="./image/1200_600image.png" />
                 </a>
             </div>
             <div class="swiper-slide" data-swiper-slide-index="2" style=" margin-right: 0px;">
                 <a href="https://3egg.github.io/">
-                    <img src="./image/1200_600image.png"/>
+                    <img src="./image/1200_600image.png" />
                 </a></div>
             <div class="swiper-slide" data-swiper-slide-index="3" style=" margin-right: 0px;">
                 <a href="https://3egg.github.io/">
-                    <img src="./image/1200_600image.png"/>
+                    <img src="./image/1200_600image.png" />
                 </a>
             </div>
             <div class="swiper-slide" data-swiper-slide-index="4" style=" margin-right: 0px;">
                 <a href="https://3egg.github.io/">
-                    <img src="./image/1200_600image.png"/>
+                    <img src="./image/1200_600image.png" />
                 </a>
             </div>
         </div>
