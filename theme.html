@@ -98,7 +98,7 @@
 
     <div class="back1 pc_top" id="header" style="text-align: center">
         <div class="logo">
-            <a href="http://47.100.228.51/hongyu">
+            <a href="./index.html">
                 <img src="./img/logo.jpg" width="100%" alt="">
             </a>
         </div>
@@ -111,9 +111,9 @@
                     Home 首页 <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" style="background-color: #eee">
-                    <li><a href="http://47.100.228.51/hongyu">Home 首页</a></li>
+                    <li><a href="./index.html">Home 首页</a></li>
                     <li><a href="./coreBiz.html">核心业务</a></li>
-                    <li><a href="#">关于我们</a></li>
+                    <li><a href="./index.html">关于我们</a></li>
                 </ul>
             </div>
         </div>
@@ -147,12 +147,12 @@
                                         tabindex="-1">主题互动</a>
                                 </li>
                                 <li class="l1 last sl_p3 slick-slide" data-slick-index="2" aria-hidden="true"
-                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a href="./content.html"
-                                        target="_self" tabindex="-1">
+                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a
+                                        href="./content.html" target="_self" tabindex="-1">
                                         数字内容</a></li>
                                 <li class="l1 last sl_p3 slick-slide" data-slick-index="2" aria-hidden="true"
-                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a href="./software.html"
-                                        target="_self" tabindex="-1">
+                                    tabindex="-1" role="option" aria-describedby="slick-slide02"><a
+                                        href="./software.html" target="_self" tabindex="-1">
                                         软件开发</a></li>
                             </div>
                         </div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next"
@@ -173,7 +173,7 @@
             </div>
 
             <div class="inside_cont1">
-                <div class="about_1">
+                <div style="width: 100%;">
                     <div class="home_l1">
                         SERVICE
                     </div>
@@ -184,11 +184,58 @@
                         <p style="text-align: center;">立足体验时代新发展，整合主题开发、创意设计、科技创新、环境展示，打造互动商业、互动教育、互动科普一站式宣传推广服务。</p>
                         <p style="text-align: center;">不断提升跨界体验的品牌、文化价值，</p>
                         <p style="text-align: center;">以最先进的VR\AR\体感\智能识别\传感互动\微信互动\实现新时代体验商业推广、文化传承、科普教育发展模式。</p>
-                        <p><br></p>
-                        <p><br></p>
-                        <p><br></p>
                     </div>
-
+                </div>
+                <div style="width: 100%;">
+                    <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                        <div class="swiper-wrapper"
+                            style="transition-duration: 0ms; transform: translate3d(-1092px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+                                style=" margin-right: 0px;">
+                                <a href="./index.html">
+                                    <img src="./image/1200_600image.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
+                                style=" margin-right: 0px;">
+                                <a href="./index.html">
+                                    <img src="./image/1200_600image.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="2" style=" margin-right: 0px;">
+                                <a href="./index.html">
+                                    <img src="./image/1200_600image.png" />
+                                </a></div>
+                            <div class="swiper-slide" data-swiper-slide-index="3" style=" margin-right: 0px;">
+                                <a href="./index.html">
+                                    <img src="./image/1200_600image.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="4" style=" margin-right: 0px;">
+                                <a href="./index.html">
+                                    <img src="./image/1200_600image.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                role="button" aria-label="Go to slide 1"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 2"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 3"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 4"></span>
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 5"></span>
+                            </span>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -232,7 +279,24 @@
         </ul>
     </div>
     <!--------  侧边小图标 end  -------->
-
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
     <script>
         /* 下面是侧边小图标 */
         $(".side-change").hover(function () {
