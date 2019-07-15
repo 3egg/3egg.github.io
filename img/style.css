@@ -254,18 +254,19 @@ display:-webkit-box;
 
 
 /*down*/
-.footer_bg{ float:left; width:100%; background:#d73240; padding:95px 15px;}
+.footer_bg{ float:left; width:100%; background:#d73240; }
 .bq{ float:left; width:100%; color:#fff; font-size:12px; line-height:18px; text-align:center;}
 .bq a{ color:#fff;}
 
 
 @media screen and (max-width:991px) {
-.footer_bg{ padding:47px 15px;}
+.footer_bg{ margin-bottom: 40px;}
+
 
 }
 
 @media screen and (max-width:767px) {
-.footer_bg{ padding:30px 15px;}
+.footer_bg{ margin-bottom: 40px;}
 
 }
 
