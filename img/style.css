@@ -47,7 +47,7 @@ input{ outline:0;}
 .pc_top{ display:block;}		
 .ph_top{ display:none;}
 .back1{ float:left; width:100%; padding:0 2.8%;}
-.logo{ float:left; width:345px; height:56px; margin:11px 0;}
+.logo{ float:left; width:260px; height:56px; margin:11px 0;}
 .so_box{ float:right; position:relative; z-index:99; margin:18px 0 0 25px;}
 .Search_but{ float:left; width:20px; height:20px; border:none;background:url(images/search_but.png) center no-repeat;}
 .so_but{ display:none;float:left; width:298px; height:45px; position:absolute; right:-5px; top:33px; background:url(images/search_but2.png) center no-repeat; padding:7px 1px 1px 1px; z-index:99;}
@@ -96,7 +96,7 @@ input{ outline:0;}
 
 
 /*手机按钮*/
-.menuph{ float:right; width:28px; height:22px; cursor: pointer; text-align: center;/* background:#d73240; padding:14px 11px;*/ margin-top:16px;}
+.menuph{ float:right; width:28px; height:22px; cursor: pointer; text-align: center;/* background:#d73240; padding:14px 11px;*/ margin-top:30px;}
 .menuph .point {  display: inline-block;  width: 28px;  height: 22px; position: relative;}
 .menuph .point:hover .navbtn,
 .menuph .point:hover .navbtn::after,
